@@ -6,12 +6,19 @@ export const style = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#ffaa00ff',
-        width: 400,
+        width: 350,
         height: '100%',
         margin: 60,
         marginLeft: 35,
         marginRight: 35,
         borderRadius: 20,
+    },
+    containerInterno:{
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'row',
+        margin: 50,
     },
     boxTop:{
         alignItems: 'center',
@@ -40,5 +47,32 @@ export const style = StyleSheet.create({
         width: '100%',
         marginTop: 10,
         padding: 50,
+    },
+    ImageReal:{
+        height: 45,
+        width: 45,
+        marginLeft: 280,
+    },
+    ImageXv: {
+        height: 45,
+        width: 45,
+        marginRight: 280,
+    },
+    logoTime: {
+        width: 50,
+        height: 50,
+        marginHorizontal: 10,
+    },
+    textPlacar: {
+        fontSize: 22,
+        fontWeight: 'bold',
+        color: 'white',
+        marginHorizontal: 10,
+    },
+    textNome: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        color: 'white',
+        marginHorizontal: 10,
     },
 })
